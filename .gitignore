@@ -1,0 +1,32 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+**/.expo/
+**/.gradle/
+**/.cxx/
+**/Pods/
+**/DerivedData/
+
+# Local environment and editor files
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+**/local.properties
+**/xcuserdata/
+**/*.xcuserstate
+**/*.xcuserdatad/
+
+# Signing keys and generated install packages
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.mobileprovision
+**/*.ipa
+**/*.apk
+**/*.aab
+
+# Generated native bundles
+**/*.jsbundle
